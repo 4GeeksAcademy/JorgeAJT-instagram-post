@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    font-family: "Roboto";
+}
+.mainWrapper {
+    /*border: 2px solid red;*/
+    background-color: white;
+    width: 500px;
+    height: auto;
+    margin: 200px auto;
+}
+.headWrapper {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    font-size: 25px;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+.dots {
+    margin-left: auto;
+    margin-right: 15px;
+    font-size: 35px;
+}
+.imageWrapper {
+    max-width: 100%;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: bottom;
+}
+.icons {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+.fa-bookmark {
+    float: right;
+    margin-right: 7px;
+}
+.bodyWrapper {
+    /*border: 2px solid blue;*/
+    margin: 10px 15px;
+    padding-bottom: 10px;
+}
